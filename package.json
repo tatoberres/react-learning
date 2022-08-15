@@ -15,6 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "postcss:watch": "postcss src/style.css --dir public --watch",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +35,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^14.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-normalize": "^10.0.1",
+    "postcss-simple-vars": "^6.0.3"
   }
 }
