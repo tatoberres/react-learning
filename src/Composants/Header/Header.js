@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div>
-      <h1>Titre</h1>
+    <div className="header">
+      <h1 className="title">Titre du header</h1>
     </div>
   );
 }
